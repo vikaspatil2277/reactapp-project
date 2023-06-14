@@ -85,3 +85,78 @@ hr {
   justify-content: space-evenly;
 
 }
+
+
+@media (max-width: 768px) {
+
+  .grid-box {
+    width: 70%;
+    height:250px;
+    /* border: 1px solid red; */
+    display: flex;
+  
+    margin: 3%;
+  }
+
+  .big-img {
+    background-size: cover;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 80px;
+  }
+  .g2-img, .g3-img{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: -80px;
+  }
+
+  .g2,
+  .g3 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+     border-radius: 10px;
+    margin: 0px;
+  } 
+
+  .heading-big {
+  /* text-align: left;
+  font: medium 'Montserrat', sans-serif;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1; */
+  position: relative;
+  /* bottom: 30%; */
+  color: white;
+  left: 10px;
+  font: 20px "Montserrat", sans-serif;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto 3%;
+  /* border: 1px black solid; */
+  width: 75%;
+}
+
+.latest-article {
+  display: flex;
+  margin: 3%;
+  justify-content: space-between;
+}
+p.latest-para{
+  font-size: 10px;
+
+}
+h2.latest-heading{
+  font-size: 20px;
+
+}
+div.latest-story{
+  height: 400px;
+}
+ 
+}
