@@ -3,8 +3,38 @@
   margin: 2%;
 }
 
-@media screen and (min-width: 375px) and (max-width: 1080px) {
-  .food-article {
-flex-direction: column;    
+.left{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+@media (max-width: 768px){
+  .food-article{
+      display: flex;
+      flex-direction: column;
+      
+      /* justify-content: space-evenly; */
+      margin: 3%;
   }
+
+  .left{
+      display: flex;
+      flex-direction: column;
+      gap: 80px;
+      margin-left: 5px;
+      
+  }
+
+  h2.article-heading{
+      margin-left: -150px;
+  }
+  p.article-para{
+
+      width: 400px;
+      margin-left: -190px;
+      font-size: 14px;
+  
+  }
+
 }

@@ -20,7 +20,7 @@ const Home = () => {
             {" "}
             <img
               src={
-                "https://www.finance-monthly.com/Finance-Monthly/wp-content/uploads/2017/07/top-new-innovation-technology.jpg"
+                "https://theforage.wpengine.com/wp-content/uploads/2022/09/tech-companies-1536x1024.jpg"
               }
               alt="not found"
               className="big-img"
@@ -85,7 +85,7 @@ const Home = () => {
                 key={item.id}
                 articleid={item.id}
                 imgUrl={item.img}
-                title={item.title}
+                title={item.title.slice(0, 35)}
                 description={item.description.slice(0, 100)}
                 author={item.author}
               />
@@ -121,14 +121,19 @@ const Home = () => {
             })
             .map((item) => (
               <ResusableArticle
+
                 key={item.id}
                 articleid={item.id}
                 imgUrl={item.img}
+                
                 title={item.title.slice(0, 50)}
-                description={item.description.slice(0, 100)}
+                description={item.description.slice(0, 50)}
                 author={item.author}
               />
+              
+              
             ))}
+            
         </div>
         <div className="right-article">
           <AdBox />

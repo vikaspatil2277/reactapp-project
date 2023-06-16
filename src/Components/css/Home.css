@@ -103,13 +103,13 @@ hr {
     width: 150px;
     height: 200px;
     border-radius: 10px;
-    margin-left: 80px;
+    margin-left: 0px;
   }
   .g2-img, .g3-img{
     width: 200px;
     height: 100px;
     border-radius: 10px;
-    margin-left: -80px;
+    margin-left: 0px;
   }
 
   .g2,
@@ -137,15 +137,20 @@ hr {
 .top-container {
   display: flex;
   justify-content: space-evenly;
-  margin: auto 3%;
+  margin-top: -10px;
+  margin-left: 30px;
   /* border: 1px black solid; */
-  width: 75%;
+
+  width: 90%;
 }
 
 .latest-article {
   display: flex;
-  margin: 3%;
-  justify-content: space-between;
+  flex-direction:column;
+  margin-top: 10%;
+  
+  justify-content: space-around;
+  
 }
 p.latest-para{
   font-size: 10px;
@@ -155,8 +160,46 @@ h2.latest-heading{
   font-size: 20px;
 
 }
+h1.story-title{
+  margin-top: 100px;
+}
 div.latest-story{
   height: 400px;
 }
+
+.latest-article-comp{
+  margin-bottom: 200px;
+}
+.article-heading{
+  margin-top: 280px;
+  margin-left: -90px;
+  width: 300px;
+}
+
+.article-para{
+  margin-left: -100px;
+  
+}
+
+
+.footer-post {
+  display: flex;
+  flex-direction: column;
+margin-left: -25px;
+  justify-content: space-evenly;
+gap:150px;
+}
+
+h2.heading{
+  color: black;
+  margin-top: 120px;
+  margin-left: -1px;
+}
+
+p.para{
+  color: black;
+  margin-left: -1px;
+}
+
  
 }

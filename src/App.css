@@ -16,3 +16,38 @@
     margin-top: -1%;
   }
 
+.footer{
+  display: flex;
+  justify-content:space-around;
+  height: 100px;
+  width:105%;
+  align-content: center;
+  background-color:antiquewhite;
+  margin-top: 20px;
+
+}
+
+.mail{
+  color:black;
+  font-size: 15px;
+}
+
+.header-content{
+  margin-top: 45px;
+}
+
+@media (max-width: 768px){
+  .footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    height: 200px;
+    width: 768px;
+    
+  }
+
+  
+.header-content{
+  margin: 45px;
+}
+}
