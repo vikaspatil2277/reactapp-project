@@ -23,7 +23,7 @@ const CardHome = (props) => {
             <p className="para">{description}....</p>
           </div>
         </div>
-        {/* <hr  style={{fontWeight:'30px', color:'grey'}}/> */}
+        
       </NavLink>
     </>
   );
