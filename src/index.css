@@ -13,5 +13,24 @@ code {
     monospace;
 }
 
+@media (max-width: 768px){
+  .body{
+
+    overflow-x: hidden;
+    width: 768px;
+
+  }
+  .maincontainer{
+  
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+
+
+
 
 
